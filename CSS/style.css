@@ -1,0 +1,61 @@
+body {
+    background-color: thistle;
+}
+.todoDone {
+    text-decoration: line-through;
+    font-style: italic;
+    color: gray;
+}
+.container {
+    width: 400px;
+    min-height: auto;
+    margin: 0 auto;
+    border: gray solid;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    
+}
+.btn-group.btn-block {
+    margin-top: 5px;
+}
+button {
+    cursor: pointer;
+}
+#input {
+    width: 255px;
+}
+#doneAction #restoreAction #removeAction #test{
+    background-color: grey;
+}
+.btn.btn-outline-primary {
+    position: absolute;
+    right: 70px;
+}
+.btn.btn-outline-danger {
+    position: absolute;
+    right: 0;
+}
+.form-check-label{
+    position: absolute;
+    left: 20px;
+    max-width: 240px;
+    overflow: hidden;
+}
+.form-check-input {
+    position: absolute;
+    left: 0;
+}
+.form-group.form-check {
+    position: relative;
+    height: 25px;
+    padding-top: 5px;
+    border-bottom: gray 2px double
+}
+#list {
+    list-style: none;
+    margin-top: 10px;
+}
+.list-group.list-group-flush {
+    padding: 0;
+}

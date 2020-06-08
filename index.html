@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoApp</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">TODO APPLICATION<br>by <a href="https://www.facebook.com/igor.dzyubich">
+                    Igor Dzyubich</a></h4>
+            </div>
+            <div class="card-body">
+                <div class="input-group" id="actionPanel1">
+                    <!-- <div class="input-group-prepend">
+                        <span id="selectAllAction" >
+                            <button class="btn btn-outline-primary" type="button" id="test">Select all</button>
+                        </span>
+                    </div> -->
+                    <input type="text" class="form-control" id="input" title="Enter your tasks" placeholder="Enter your tasks">
+                </div>
+                <div id="actionPanel2">
+                    <div class="btn-group btn-block">
+                        <button type="button" class="btn btn-success" id="doneAction">Done</button>
+                        <button type="button" class="btn btn-info" id="restoreAction">Restore</button>
+                        <button type="button" class="btn btn-danger" id="removeAction">Remove</button>
+                        <button class="btn btn-primary" type="button" id="test">Select all</button>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush" id="list" >
+                <!-- <li class="list-group-item">
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        <button type="button" class="btn btn-outline-primary">Done</button>
+                        <button type="button" class="btn btn-outline-danger">Remove</button>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
